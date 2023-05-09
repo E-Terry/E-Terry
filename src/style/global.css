@@ -1,0 +1,57 @@
+/*? global clearing */
+*,
+html,
+body {
+    text-indent: 2%;
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#everything {
+    background: linear-gradient(56deg, rgb(0, 81, 255), black),
+                linear-gradient(182deg, rgb(0, 81, 255), rgb(31, 31, 31)),
+                linear-gradient(324deg, rgb(119, 0, 255), rgb(80, 80, 80)),
+                linear-gradient(7deg, rgb(234, 0, 255), rgb(105, 105, 105));
+    backdrop-filter: blur(100px);
+    background-blend-mode:soft-light;
+    margin:0;
+    padding:0;
+}
+
+head {
+    padding: 0.5%
+}
+
+header {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+    position: sticky; top:0;
+    background: none;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: .75%;
+    text-transform: uppercase;
+    margin:auto;
+    background-size: cover;
+}
+
+span {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.mainTitle {
+    font-size: xxx-large;
+}
+
+p {
+    max-width: 75vw;
+}
