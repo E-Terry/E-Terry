@@ -23,7 +23,7 @@ function hackycode(id) {
         }
         console.log(output)
         element.innerHTML = output;
-        i += 1/3;
+        i += 1/2;
         if(i>chars.length+1) {
             clearInterval(run)
         }
