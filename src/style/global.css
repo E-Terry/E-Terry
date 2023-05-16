@@ -197,7 +197,7 @@ a.website {
     padding: .1em .4em;
     font-size: small;
     margin: 0em .1em;
-    text-decoration: none;
+    text-decoration: underline;
     color: #FFFFFF;
     animation: none;
     font-variant: normal;
